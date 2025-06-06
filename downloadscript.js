@@ -8,3 +8,13 @@
       document.getElementById("desktop-content").classList.add("active");
     }
 
+const url = "https://niko111199.github.io/DownloadRoyalGO/";
+
+    const qr = new QRCode(document.getElementById("qrcode"), {
+      text: url,
+      width: 450,
+      height: 450,
+      colorDark: "#000000",
+      colorLight: "#ffffff",
+      correctLevel: QRCode.CorrectLevel.H
+    });

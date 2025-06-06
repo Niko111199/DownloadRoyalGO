@@ -19,3 +19,11 @@
     width: 10rem;
     height: auto;
 }
+
+#dektoptekst, #qrcode{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
