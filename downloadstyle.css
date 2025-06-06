@@ -14,3 +14,8 @@
 .IOS{
     color: red;
 }
+
+#IOSimage{
+    width: 50%;
+    height: auto;
+}
